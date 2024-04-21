@@ -19,16 +19,6 @@ public class FipeService {
     @Autowired
     private FipeRepository fipeRepository;
 
-//    private RestTemplate restTemplate = new RestTemplate();
-
-//    private String consultarURL(String apiURL) {
-//        ResponseEntity<String> responseEntity = restTemplate.getForEntity(apiURL, String.class);
-//        if (responseEntity.getStatusCode().is2xxSuccessful()) {
-//            return responseEntity.getBody();
-//        } else {
-//            return null;
-//        }
-//    }
 
     public String consultarMarcasESalvar() {
         String apiURL ="https://parallelum.com.br/fipe/api/v1/carros/marcas";
